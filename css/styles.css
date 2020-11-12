@@ -20,7 +20,7 @@ body{
 
 #header > div{
 	
-	background: url('./img/ulrt.jpg');
+	background: url('../img/ulrt.jpg');
 	background-position: center left;
 	background-size:cover;
 }
