@@ -20,7 +20,9 @@ body{
 
 #header > div{
 	
-	background-color:rgba(51, 120, 204, 0.812);
+	background: url('../img/ulrt.jpg');
+	background-position: center left;
+	background-size:cover;
 }
 
 
