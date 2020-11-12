@@ -101,7 +101,7 @@ hr{
 }
 
 #contenedor_carousel{
-	background-color: rgba(255, 117, 0, 0.447);
+	background-color: rgba(255, 117, 0, .7);
 }
 
 #img_aparatos div img{
