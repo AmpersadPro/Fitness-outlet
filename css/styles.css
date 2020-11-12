@@ -33,7 +33,7 @@ body{
 	padding: 0px;
 	margin:  0px;
 	line-height: 150px;
-	font-size: 50px;
+	
 	font-weight: bold;
 	animation: showTittle 1000ms linear;
     transition: all 400ms;
