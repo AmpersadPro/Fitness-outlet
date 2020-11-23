@@ -170,6 +170,12 @@ footer {
 
 }
 
+#footer #whatsapp{
+	width: 25px;
+    margin-top: -20px;
+    margin-left: -510px;
+}
+
 @media(min-width: 991px){
 	#navegacion{
 	box-shadow: 0px 0px 5px #cccccc;
@@ -181,6 +187,14 @@ footer {
 @media(max-width: 991px){
 	#galeria{
 		margin-top: 50px;
+	}
+}
+
+@media(max-width: 320px){
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -25px;
 	}
 }
 
@@ -221,6 +235,11 @@ footer {
 	}
 	#form_footer form{
 		display: block;
+
+	}
+	#form_footer label{
+		font-size: 20px;
+
 	}
 	#img_aparatos p{
 		font-size: 25px;
@@ -229,7 +248,17 @@ footer {
 	#img_aparatos h6{
 		font-size: 30px;
 	}
+
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -25px;
+	}
+	#forma_pagos p{
+		font-size: 18px;
+	}
 }
+
 
 @media(min-width: 1520px){
 	.modal-dialog {
@@ -248,20 +277,31 @@ footer {
 	animation: showTittle 1000ms linear;
     transition: all 400ms;
 	}
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -510px;
+	}
 }
+
 
 @media(max-width: 1520px){
 	#header h1{
-	font-family: 'Russo One';
-	color: white;
-	letter-spacing: 4px;
-	padding: 0px;
-	margin-left: 50px;
-	line-height: 150px;
-	font-size: 70px;
-	font-weight: bold;
-	animation: showTittle 1000ms linear;
-    transition: all 400ms;
+		font-family: 'Russo One';
+		color: white;
+		letter-spacing: 4px;
+		padding: 0px;
+		margin-left: 50px;
+		line-height: 150px;
+		font-size: 70px;
+		font-weight: bold;
+		animation: showTittle 1000ms linear;
+	    transition: all 400ms;
+	}
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -25px;
 	}
 }
 
@@ -273,7 +313,7 @@ footer {
 	padding: 0px;
 	margin-left: 50px;
 	line-height: 150px;
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: bold;
 	animation: showTittle 1000ms linear;
     transition: all 400ms;
@@ -295,12 +335,54 @@ footer {
 	}
 }
 
+@media(min-width: 1024px){
+
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -60px;
+	}
+}
+
+@media(min-width: 1440px){
+
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -190px;
+	}
+}
+
+@media(min-width: 1800px){
+
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -320px;
+	}
+}
+
+@media(min-width: 2560px){
+
+	#footer #whatsapp{
+		width: 25px;
+	    margin-top: -20px;
+	    margin-left: -530px;
+	}
+}
+
 .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233378cc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    width: 90px;
+    height: 80px;
+    background-size: 50px;
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233378cc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 90px;
+  height: 80px;
+  background-size: 50px;
 }
 
 .titulo {
